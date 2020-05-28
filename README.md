@@ -23,25 +23,12 @@ http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/data/label_colors.txt
 python3 python/CamVid_utils.py
 ```
 
-#### 1.生成数据集：
-3. 训练生成模型：
+#### 2.训练生成模型：
+```python
 python3 python/train.py CamVid
+```
 
-4. 推理代码：
+#### 3.推理代码：
+```python
 python3 python/inference.py
-- default dataset is CamVid
-
-create a directory named "CamVid", and put data into it, then run python codes:
-```python
-python3 python/CamVid_utils.py 
-python3 python/train.py CamVid
 ```
-
-- or train with CityScapes
-
-create a directory named "CityScapes", and put data into it, then run python codes:
-```python
-python3 python/CityScapes_utils.py 
-python3 python/train.py CityScapes
-```
-
